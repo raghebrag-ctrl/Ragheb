@@ -1,0 +1,225 @@
+<resources>
+    <!-- App Identity -->
+    <string name="app_name">جمعية حبر</string>
+    <string name="app_subtitle">للتعليم والتمكين والخدمات الاجتماعية</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">الرئيسية</string>
+    <string name="nav_beneficiaries">المستفيدون</string>
+    <string name="nav_education">التعليم والتمكين</string>
+    <string name="nav_aid">المساعدات</string>
+    <string name="nav_volunteers">التقارير</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="action_save">حفظ</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_close">إغلاق</string>
+    <string name="action_ok">حسناً</string>
+    <string name="action_add">إضافة</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_search">بحث</string>
+    <string name="action_retry">إعادة المحاولة</string>
+    <string name="action_clear_search">مسح البحث</string>
+    <string name="action_dismiss_error">إغلاق التنبيه</string>
+    <string name="action_logout">قفل الجلسة</string>
+    <string name="label_notice">تنبيه</string>
+    <string name="label_error_alert">تنبيه خطأ</string>
+    <string name="cd_back">رجوع</string>
+    <string name="cd_hero_banner">شعار جمعية حبر</string>
+    <string name="cd_empty_illustration">لا توجد بيانات مسجلة</string>
+
+    <!-- Errors -->
+    <string name="error_generic">حدث خطأ غير متوقع أثناء تنفيذ العملية.</string>
+    <string name="error_unauthorized">عذراً، لا تملك الصلاحية الكافية لتنفيذ هذا الإجراء.</string>
+
+    <!-- Auth Screen -->
+    <string name="auth_portal_title">بوابة دخول الفريق الإداري</string>
+    <string name="auth_select_staff_label">اختر حساب الموظف أو المتطوع</string>
+    <string name="auth_staff_option_format">%1$s — %2$s</string>
+    <string name="auth_pin_label">رمز التحقق الشخصي (PIN)</string>
+    <string name="auth_default_admin_hint">الحساب التأسيسي الافتراضي: مدير الجمعية • الرمز: 1234</string>
+    <string name="auth_sign_in_button">تسجيل الدخول</string>
+    <string name="auth_add_staff_button">إضافة عضو فريق جديد</string>
+    <string name="auth_add_staff_dialog_title">إضافة موظف أو متطوع</string>
+    <string name="auth_field_full_name">الاسم الكامل</string>
+    <string name="auth_field_role">الدور والصلاحية</string>
+    <string name="auth_field_phone">رقم الهاتف</string>
+    <string name="auth_field_specialty">التخصص (اختياري)</string>
+    <string name="auth_field_pin_range">رمز PIN (4-8 أرقام)</string>
+
+    <!-- Dashboard Screen -->
+    <string name="dashboard_greeting_format">مرحباً، %1$s</string>
+    <string name="dashboard_default_staff">عضو الفريق</string>
+    <string name="dashboard_daily_subtitle">لوحة المتابعة اليومية — جمعية حبر للتعليم والتمكين والخدمات الاجتماعية</string>
+    <string name="dashboard_quick_beneficiaries">المستفيدون والحالات</string>
+    <string name="dashboard_quick_education">التعليم والتمكين</string>
+    <string name="dashboard_quick_finance">التبرعات والمساعدات</string>
+    <string name="dashboard_quick_volunteers">المتطوعون والتقارير</string>
+    <string name="dashboard_stat_beneficiaries_title">المستفيدون</string>
+    <string name="dashboard_stat_beneficiaries_sub">%1$d حالة نشطة</string>
+    <string name="dashboard_stat_education_title">التعليم والدورات</string>
+    <string name="dashboard_stat_education_sub">%1$d تسجيل نشط</string>
+    <string name="dashboard_stat_empowerment_title">مشاريع التمكين</string>
+    <string name="dashboard_stat_empowerment_sub">%1$d مشروع مستدام</string>
+    <string name="dashboard_stat_finance_title">الرصيد التبرعي</string>
+    <string name="dashboard_stat_finance_sub">مصروف: %1$s</string>
+    <string name="dashboard_urgent_cases_heading">الحالات الاجتماعية العاجلة والطارئة</string>
+    <string name="dashboard_no_urgent_cases">لا توجد حالات عاجلة مفتوحة حالياً. يمكنك مراجعة وإضافة الحالات من قسم المستفيدين.</string>
+    <string name="dashboard_upcoming_tasks_heading">مهام المتطوعين القادمة</string>
+    <string name="dashboard_no_upcoming_tasks">لا توجد مهام معلقة حالياً. أضف مهام ميدانية جديدة من تبويب المتطوعين.</string>
+    <string name="dashboard_task_meta_format">المسؤول: %1$s • الموعد: %2$s</string>
+
+    <!-- Beneficiaries & Social Cases -->
+    <string name="beneficiaries_tab_title">المستفيدون (%1$d)</string>
+    <string name="cases_tab_title">الحالات الاجتماعية (%1$d)</string>
+    <string name="beneficiaries_search_placeholder">ابحث بالاسم، رقم الهوية، رقم الملف أو الهاتف...</string>
+    <string name="beneficiaries_empty_title">لا يوجد مستفيدون مسجلون</string>
+    <string name="beneficiaries_empty_subtitle">ابدأ بتسجيل ملف المستفيد الأول لإدراجه في البرامج التعليمية والحالات الاجتماعية.</string>
+    <string name="beneficiaries_empty_action">تسجيل مستفيد جديد</string>
+    <string name="beneficiaries_card_ids_format">ملف: %1$s • هوية: %2$s</string>
+    <string name="beneficiaries_card_family_format">الأسرة: %1$d أفراد • الدخل: %2$s</string>
+    <string name="cases_empty_title">لا توجد حالات اجتماعية مسجلة</string>
+    <string name="cases_empty_need_beneficiary">سجّل مستفيداً أولاً ثم افتح له دراسة حالة اجتماعية.</string>
+    <string name="cases_empty_subtitle">أضف أول حالة اجتماعية لمتابعة تقييم الاحتياج واعتماد الدعم.</string>
+    <string name="cases_empty_action">فتح حالة اجتماعية</string>
+    <string name="cases_recommendation_format">التوصية: %1$s</string>
+    <string name="cases_require_beneficiary_message">يجب تسجيل مستفيد واحد على الأقل قبل فتح حالة اجتماعية.</string>
+    <string name="cases_register_beneficiary_now">تسجيل مستفيد الآن</string>
+    <string name="beneficiary_detail_file_format">رقم الملف: %1$s</string>
+    <string name="beneficiary_detail_nid_format">الهوية: %1$s</string>
+    <string name="beneficiary_detail_phone_format">الهاتف: %1$s</string>
+    <string name="beneficiary_detail_address_format">العنوان: %1$s</string>
+    <string name="beneficiary_detail_family_format">أفراد الأسرة: %1$d • الدخل: %2$s</string>
+    <string name="beneficiary_detail_notes_format">ملاحظات: %1$s</string>
+    <string name="beneficiary_detail_update_status">تحديث حالة الملف:</string>
+    <string name="beneficiary_detail_aid_history_title">سجل المساعدات المصروفة (%1$d):</string>
+    <string name="beneficiary_detail_no_aid">لا توجد مساعدات مصروفة لهذا المستفيد.</string>
+    <string name="beneficiary_detail_delete_button">حذف الملف</string>
+    <string name="beneficiary_delete_confirm_title">تأكيد حذف ملف المستفيد</string>
+    <string name="beneficiary_delete_confirm_message">هل أنت متأكد من حذف هذا الملف؟ لن يسمح النظام بالحذف إذا كان مرتبطاً بمساعدات مالية مصروفة.</string>
+    <string name="beneficiary_add_dialog_title">تسجيل مستفيد جديد</string>
+    <string name="beneficiary_field_nid">رقم الهوية الوطنية (8-14 رقم)</string>
+    <string name="beneficiary_field_address">العنوان السكني</string>
+    <string name="beneficiary_field_family_size">أفراد الأسرة</string>
+    <string name="beneficiary_field_monthly_income">الدخل الشهري</string>
+    <string name="beneficiary_field_vulnerability">درجة الاحتياج</string>
+    <string name="beneficiary_field_notes">ملاحظات الباحث (اختياري)</string>
+    <string name="case_add_dialog_title">فتح حالة اجتماعية جديدة</string>
+    <string name="case_field_beneficiary">المستفيد</string>
+    <string name="case_field_type">تصنيف الحالة</string>
+    <string name="case_field_priority">الأولوية</string>
+    <string name="case_field_summary">ملخص التقييم الاجتماعي</string>
+    <string name="case_field_recommendation">الإجراء المقترح (اختياري)</string>
+
+    <!-- Education & Empowerment -->
+    <string name="education_tab_courses">الدورات التعليمية (%1$d)</string>
+    <string name="education_tab_empowerment">التمكين المهني (%1$d)</string>
+    <string name="courses_empty_title">لا توجد دورات تعليمية بعد</string>
+    <string name="courses_empty_subtitle">أضف دورة تعليمية أو مهنية لبدء تسجيل المستفيدين ورصد حضورهم.</string>
+    <string name="courses_empty_action">إضافة دورة جديدة</string>
+    <string name="course_instructor_capacity_format">المدرب: %1$s • المقاعد: %2$d / %3$d</string>
+    <string name="course_unassigned_instructor">غير محدد</string>
+    <string name="course_manage_hint">اضغط لإدارة المسجلين ورصد الحضور اليومي</string>
+    <string name="course_detail_seats_format">المقاعد: %1$d / %2$d</string>
+    <string name="course_detail_select_beneficiary">اختر مستفيداً للتسجيل</string>
+    <string name="course_detail_enroll_button">تسجيل في الدورة</string>
+    <string name="course_detail_no_beneficiaries">لا يوجد مستفيدون مسجلون حالياً لإلحاقهم بالدورة.</string>
+    <string name="course_detail_attendees_title">قائمة المسجلين والحضور اليومي:</string>
+    <string name="course_detail_no_attendees">لم يتم تسجيل أي متدرب بعد.</string>
+    <string name="course_attendance_ratio_format">الحضور: %1$d/%2$d</string>
+    <string name="course_attendance_present">حاضر</string>
+    <string name="course_attendance_absent">غائب</string>
+    <string name="course_add_dialog_title">إنشاء دورة تدريبية</string>
+    <string name="course_field_title">اسم الدورة</string>
+    <string name="course_field_category">المجال التعليمي</string>
+    <string name="course_field_instructor">المدرب المسؤول</string>
+    <string name="course_field_duration">المدة (أيام)</string>
+    <string name="course_field_capacity">السعة القصوى</string>
+    <string name="empowerment_empty_title">لا توجد مشاريع تمكين مهني</string>
+    <string name="empowerment_empty_need_beneficiary">سجّل مستفيداً أولاً ثم أطلق له مشروع تمكين اقتصادي.</string>
+    <string name="empowerment_empty_subtitle">ابدأ بإطلاق مشروع صغير أو منحة تأهيل مهني لدعم الاستقلال المالي للأسر.</string>
+    <string name="empowerment_empty_action">إطلاق مشروع تمكين</string>
+    <string name="empowerment_require_beneficiary">يجب تسجيل مستفيد أولاً قبل إطلاق مشروع تمكين مهني.</string>
+    <string name="empowerment_card_sub_format">المستفيد: %1$s • %2$s</string>
+    <string name="empowerment_card_funding_format">%1$s: %2$s • الإنجاز %3$d%%</string>
+    <string name="empowerment_advance_button">ترقية للمرحلة التالية</string>
+    <string name="empowerment_add_dialog_title">إطلاق مشروع تمكين مهني</string>
+    <string name="empowerment_field_beneficiary">المستفيد صاحب المشروع</string>
+    <string name="empowerment_field_title">اسم المشروع الصغير</string>
+    <string name="empowerment_field_sector">القطاع المهني</string>
+    <string name="empowerment_field_funding_type">نوع التمويل</string>
+    <string name="empowerment_field_amount">مبلغ التمويل المخصص</string>
+
+    <!-- Finance & Aid -->
+    <string name="finance_tab_donations">التبرعات والكفالات (%1$d)</string>
+    <string name="finance_tab_aid">المساعدات المصروفة (%1$d)</string>
+    <string name="finance_strip_incoming">الوارد</string>
+    <string name="finance_strip_outgoing">المصروف</string>
+    <string name="finance_strip_balance">الرصيد المتاح</string>
+    <string name="donations_empty_title">لا توجد تبرعات مسجلة بعد</string>
+    <string name="donations_empty_subtitle">سجّل التبرعات النقدية والعينية والكفالات مع إصدار أرقام إيصالات فريدة.</string>
+    <string name="donations_empty_action">توثيق تبرع جديد</string>
+    <string name="donation_amount_receipt_format">المبلغ: %1$s • إيصال: %2$s</string>
+    <string name="donation_inkind_receipt_format">عيني: %1$s • إيصال: %2$s</string>
+    <string name="donation_meta_format">بتاريخ %1$s • المستلم: %2$s</string>
+    <string name="donation_default_receiver">الإدارة</string>
+    <string name="aid_empty_title">لا توجد مساعدات مصروفة بعد</string>
+    <string name="aid_empty_need_beneficiary">سجّل مستفيداً أولاً لتتمكن من صرف المساعدات وربطها بالحالات.</string>
+    <string name="aid_empty_subtitle">وثّق صرف المساعدات المالية والعينية مع التدقيق الأمني التلقائي.</string>
+    <string name="aid_empty_action">صرف مساعدة جديدة</string>
+    <string name="aid_require_beneficiary">يرجى تسجيل مستفيد واحد على الأقل قبل صرف المساعدات.</string>
+    <string name="aid_amount_format">القيمة المصروفة: %1$s</string>
+    <string name="aid_details_format">التفاصيل: %1$s</string>
+    <string name="aid_approved_by_format">اعتمدت بواسطة: %1$s • %2$s</string>
+    <string name="donation_add_dialog_title">توثيق تبرع جديد</string>
+    <string name="donation_field_donor">اسم المتبرع / الجهة</string>
+    <string name="donation_field_phone">هاتف المتبرع (اختياري)</string>
+    <string name="donation_field_type">نوع التبرع</string>
+    <string name="donation_field_inkind">وصف المواد العينية</string>
+    <string name="donation_field_amount">المبلغ</string>
+    <string name="donation_field_purpose">المصرف / التوجيه (اختياري)</string>
+    <string name="donation_field_receipt">رقم الإيصال (يُولَّد تلقائياً إذا تُرك فارغاً)</string>
+    <string name="aid_add_dialog_title">اعتماد وصرف مساعدة</string>
+    <string name="aid_field_case">ربط بحالة اجتماعية (اختياري)</string>
+    <string name="aid_field_type">نوع المساعدة</string>
+    <string name="aid_field_amount_cash">المبلغ المعتمد</string>
+    <string name="aid_field_amount_estimate">القيمة التقديرية (اختياري)</string>
+    <string name="aid_field_details">تفاصيل الصرف / الأصناف</string>
+    <string name="aid_confirm_button">اعتماد وصرف</string>
+
+    <!-- Volunteers, Reports & Audit -->
+    <string name="volunteers_tab_tasks">المهام (%1$d)</string>
+    <string name="volunteers_tab_reports">التقارير</string>
+    <string name="volunteers_tab_audit">التدقيق (%1$d)</string>
+    <string name="tasks_empty_title">لا توجد مهام تطوعية مسجلة</string>
+    <string name="tasks_empty_subtitle">وزّع المهام الميدانية والإدارية على الفريق وتابع ساعات التطوع المنجزة.</string>
+    <string name="tasks_empty_action">إسناد مهمة جديدة</string>
+    <string name="task_assignee_due_format">المكلف: %1$s • الموعد: %2$s</string>
+    <string name="task_hours_logged_format">ساعات التطوع المسجلة: %1$s ساعة</string>
+    <string name="task_add_one_hour">+1 ساعة تطوع</string>
+    <string name="task_add_dialog_title">إسناد مهمة تطوعية</string>
+    <string name="task_field_assignee">المكلف بالمهمة</string>
+    <string name="task_field_title">عنوان المهمة</string>
+    <string name="task_field_description">تفاصيل المهمة</string>
+    <string name="task_field_due_days">مهلة التنفيذ (أيام)</string>
+    <string name="reports_financial_title">مؤشرات الأداء والأثر المالي</string>
+    <string name="reports_donations_label">التبرعات: %1$s</string>
+    <string name="reports_aid_label">المساعدات: %1$s</string>
+    <string name="reports_section_beneficiaries">المستفيدون والحالات الاجتماعية</string>
+    <string name="reports_metric_total_beneficiaries">إجمالي المستفيدين المسجلين</string>
+    <string name="reports_metric_active_cases">الحالات المفتوحة وقيد الدراسة</string>
+    <string name="reports_metric_urgent_cases">الحالات العاجلة والطارئة</string>
+    <string name="reports_section_education">التعليم والتمكين الاقتصادي</string>
+    <string name="reports_metric_active_courses">الدورات الجارية والقادمة</string>
+    <string name="reports_metric_total_enrollments">إجمالي التسجيلات في الدورات</string>
+    <string name="reports_metric_empowerment_projects">مشاريع التمكين المهني</string>
+    <string name="reports_metric_self_reliant">مشاريع وصلت للاكتفاء الذاتي</string>
+    <string name="reports_section_volunteers">العمل التطوعي والإنجاز</string>
+    <string name="reports_metric_volunteer_hours">إجمالي ساعات التطوع الموثقة</string>
+    <string name="reports_metric_volunteer_hours_value">%1$s ساعة</string>
+    <string name="reports_metric_completed_tasks">المهام المنجزة</string>
+    <string name="reports_metric_open_tasks">المهام الجارية والمعلقة</string>
+    <string name="reports_metric_aid_records">إجمالي قيود المساعدات المصروفة</string>
+    <string name="audit_empty_title">سجل التدقيق فارغ</string>
+    <string name="audit_empty_subtitle">سيتم توثيق كافة عمليات الدخول والإضافة والاعتماد المالي هنا تلقائياً.</string>
+</resources>

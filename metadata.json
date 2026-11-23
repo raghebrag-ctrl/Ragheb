@@ -1,0 +1,6 @@
+{
+  "name": "جمعية حبر",
+  "description": "تطبيق إداري متكامل لجمعية حبر للتعليم والتمكين والخدمات الاجتماعية يعمل محلياً بقاعدة بيانات Room SQLite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
